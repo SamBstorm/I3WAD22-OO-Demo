@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-GUID", "Demo-GUID\Demo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Indexer", "Demo-Indexer\Demo-Indexer.csproj", "{B78DF614-75B5-432B-9FD5-579226AB5CDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Heritage", "Demo-Heritage\Demo-Heritage.csproj", "{7DB338A5-63C2-43DF-8ECF-FAC6D3C8BEE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Heritage", "Demo-Heritage\Demo-Heritage.csproj", "{7DB338A5-63C2-43DF-8ECF-FAC6D3C8BEE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Polymorphisme", "Demo-Polymorphisme\Demo-Polymorphisme.csproj", "{FE731DEC-3193-4CBB-8C7C-C9381D427073}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{7DB338A5-63C2-43DF-8ECF-FAC6D3C8BEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DB338A5-63C2-43DF-8ECF-FAC6D3C8BEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DB338A5-63C2-43DF-8ECF-FAC6D3C8BEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE731DEC-3193-4CBB-8C7C-C9381D427073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE731DEC-3193-4CBB-8C7C-C9381D427073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE731DEC-3193-4CBB-8C7C-C9381D427073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE731DEC-3193-4CBB-8C7C-C9381D427073}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
