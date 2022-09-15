@@ -6,7 +6,15 @@ namespace Demo_Exceptions
     {
         static void Main(string[] args)
         {
-            Division();
+            //Division();
+            try
+            {
+                DemanderString("Veuillez vous identifier :");
+            }
+            catch (SamException e)
+            {
+                AfficheErreur(e.NomVariableQuiContientSam);
+            }
         }
 
         static void AfficheErreur(string message)
@@ -45,6 +53,20 @@ namespace Demo_Exceptions
         {
             if (nb2 == 0) throw new ArgumentException($"On ne peut pas diviser par 0... nb2 vaut : {nb2}");
             return nb1 / nb2;
+        }
+
+        static string DemanderString(string message) {
+            Console.WriteLine(message);
+            string result = Console.ReadLine();
+            try
+            {
+                if (result == "Sam") throw new SamException(nameof(result),"Erreur dans la méthode DemanderString");
+            }
+            catch (SamException ex)
+            {
+                throw ex;
+            }
+            return result;
         }
     }
 }
