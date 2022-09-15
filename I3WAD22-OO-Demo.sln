@@ -17,13 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Indexer", "Demo-Indexe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Heritage", "Demo-Heritage\Demo-Heritage.csproj", "{7DB338A5-63C2-43DF-8ECF-FAC6D3C8BEE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Polymorphisme", "Demo-Polymorphisme\Demo-Polymorphisme.csproj", "{FE731DEC-3193-4CBB-8C7C-C9381D427073}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Polymorphisme", "Demo-Polymorphisme\Demo-Polymorphisme.csproj", "{FE731DEC-3193-4CBB-8C7C-C9381D427073}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Interfaces", "Demo-Interfaces\Demo-Interfaces.csproj", "{3E7A2F96-5696-4B27-BD40-72F6C165F795}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Interfaces", "Demo-Interfaces\Demo-Interfaces.csproj", "{3E7A2F96-5696-4B27-BD40-72F6C165F795}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-ConstructeurHeritage", "Demo-ConstructeurHeritage\Demo-ConstructeurHeritage.csproj", "{BEA6E7BE-2D0D-48D8-B9D5-0DC686026033}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-ConstructeurHeritage", "Demo-ConstructeurHeritage\Demo-ConstructeurHeritage.csproj", "{BEA6E7BE-2D0D-48D8-B9D5-0DC686026033}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-IDisposable", "Demo-IDisposable\Demo-IDisposable.csproj", "{2948E82B-DBBD-4AEC-8B9B-6E14FD33DE73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-IDisposable", "Demo-IDisposable\Demo-IDisposable.csproj", "{2948E82B-DBBD-4AEC-8B9B-6E14FD33DE73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Exceptions", "Demo-Exceptions\Demo-Exceptions.csproj", "{56C1283F-C0AB-44A4-96FA-C0F2757B5210}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{2948E82B-DBBD-4AEC-8B9B-6E14FD33DE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2948E82B-DBBD-4AEC-8B9B-6E14FD33DE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2948E82B-DBBD-4AEC-8B9B-6E14FD33DE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C1283F-C0AB-44A4-96FA-C0F2757B5210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C1283F-C0AB-44A4-96FA-C0F2757B5210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C1283F-C0AB-44A4-96FA-C0F2757B5210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C1283F-C0AB-44A4-96FA-C0F2757B5210}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
