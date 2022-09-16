@@ -16,7 +16,6 @@ namespace Demo_Delegate2
 
 
             player.Play();
-            player.EmitSound();
         }
     }
 }
