@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Delegate1", "Demo-Dele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-ParamStructVSParamRef", "Demo-ParamStructVSParamRef\Demo-ParamStructVSParamRef.csproj", "{32C020F1-638A-44E8-859B-73E66E10DB89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Delegate2", "Demo-Delegate2\Demo-Delegate2.csproj", "{880B5F4B-D6A6-46A7-8C7F-E63B17951DC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{32C020F1-638A-44E8-859B-73E66E10DB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32C020F1-638A-44E8-859B-73E66E10DB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32C020F1-638A-44E8-859B-73E66E10DB89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880B5F4B-D6A6-46A7-8C7F-E63B17951DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880B5F4B-D6A6-46A7-8C7F-E63B17951DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880B5F4B-D6A6-46A7-8C7F-E63B17951DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880B5F4B-D6A6-46A7-8C7F-E63B17951DC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
